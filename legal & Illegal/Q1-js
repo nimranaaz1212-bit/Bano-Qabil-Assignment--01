@@ -1,0 +1,2 @@
+let name = "Nimra", age = 20, city = "Karachi";
+console.log (name);

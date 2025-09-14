@@ -1,0 +1,3 @@
+const age = "I am 17 year old...";
+alert (age);
+
