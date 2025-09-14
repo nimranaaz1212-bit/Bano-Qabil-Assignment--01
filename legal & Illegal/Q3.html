@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Q3.HTML</title>
+</head>
+<body>
+  <h1>Rules for naming JS variables</h1>
+
+  <p>Variable names can only contain <strong>letters</strong>, <strong>numbers</strong>, <strong>$</strong>, and <b>_</b>. <br>
+  For example: $my_1stVariable</p>
+  
+  <p>Variables must begin with a <strong>letter</strong>, <b>$</b>, or <b>_</b>. <br>
+  For example:$name, _name, name </p>
+  
+  <p>Variable names are case <strong>sensitive</strong>.</p>
+  
+  <p>Variable names should not be JS <strong>keywords</strong>.</p>
+
+  <script>
+    // Q1: Declare 3 variables in one statement
+    let a = 10, b = 20, c = 30;
+    console.log("Q1: Variables declared in one statement:", a, b, c);
+
+    // Q2: 5 legal variable names
+    let userName;
+    let $price;
+    let _total;
+    let age2;
+    let myVariable;
+
+    console.log("Q2: Legal variable names examples:");
+    console.log("userName, $price, _total, age2, myVariable");
+
+    // Q2: 5 illegal variable names (commented, otherwise error)
+    // let 2user;
+    // let user-name;
+    // let var;
+    // let my variable;
+    // let @price;
+
+    console.log("Q2: Illegal variable names examples (cannot be used):");
+    console.log("2user, user-name, var, my variable, @price");
+  </script>
+</body>
+</html>
+
+

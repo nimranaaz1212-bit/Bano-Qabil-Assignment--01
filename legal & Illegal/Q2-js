@@ -1,0 +1,10 @@
+
+let username;
+let $price;
+let age24;
+let _total;
+let myvariable;
+
+console.log("Legal variables example =", );
+console.log("$price, age24,_total, myvariable");
+
